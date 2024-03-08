@@ -10,9 +10,10 @@
 #include <TFile.h>
 #include <TF1.h>
 #include <TVector3.h>
-#include "/home/had/yudai/private/work/kinema/Cusp/SigmaN_Cusp/QFBG/FermiMotion.hh"
-#include "/home/had/yudai/private/work/kinema/Cusp/SigmaN_Cusp/FdComplex.hh"
-
+//#include "/home/had/yudai/private/work/kinema/Cusp/SigmaN_Cusp/QFBG/FermiMotion.hh"
+//#include "/home/had/yudai/private/work/kinema/Cusp/SigmaN_Cusp/FdComplex.hh"
+#include "FermiMotion.hh"
+#include "FdComplex.hh"
 
 void Cusp_scatA_revised(){
   gRandom->SetSeed(time(NULL));
